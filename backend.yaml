@@ -102,11 +102,11 @@ spec:
               key: REDIS_HOST
         resources:
           requests:
+            memory: "500Mi"
+            cpu: "300m"
+          limits:
             memory: "1Gi"
             cpu: "500m"
-          limits:
-            memory: "2Gi"
-            cpu: "1000m"
         livenessProbe:
           httpGet:
             path: /api/v1/products
