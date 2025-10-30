@@ -44,7 +44,7 @@ spec:
     spec:
       containers:
       - name: ekart-backend
-        image: image-registry.openshift-image-registry.svc:5000/default/vulnado-image-stream@sha256:17df867cf6b9caa4afcf74afe91a308bbbdbc2c96ef6444c6ac732b451c4a49d
+        image: image-registry.openshift-image-registry.svc:5000/default/vulnado-image-stream@sha256:4ee04803ce6e946d0469f62eb56426b442f51b1db52a5d1dd596c9faa33cdbee
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8000
