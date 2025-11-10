@@ -44,7 +44,7 @@ spec:
     spec:
       containers:
       - name: ekart-backend
-        image: image-registry.openshift-image-registry.svc:5000/default/image-stream@sha256:c47f9c672a2524c4013c71ff2560a6915c085c336dc02a778ea3cb45509f96ee
+        image: image-registry.openshift-image-registry.svc:5000/default/image-stream@sha256:6d55e739dc79d66add1c815bc2195c47cb6fddff8897521a982d87b99b26422b
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8000
